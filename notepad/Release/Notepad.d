@@ -1,0 +1,1 @@
+Notepad.d: ../Notepad.cpp
