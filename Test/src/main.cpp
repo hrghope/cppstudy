@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//¶¥²ãconst£¬¶ÔcopyÎŞÓ°Ïì
+
  int *const get() {
 	static int *i = 0;
 	if (i == 0) {
@@ -20,8 +20,8 @@ int main() {
 	cout << "in main:" << i << endl;
 	get();
 
-	int *const k=100;
-	int *l=k;
+//	int *const k=100;
+//	int *l=k;
 
 	return 0;
 }
